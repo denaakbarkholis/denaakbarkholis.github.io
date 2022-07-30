@@ -15,6 +15,10 @@ body {
   color: var(--acsentColor) !important;
   font-weight: 700;
 }
+
+.navbar {
+  background-color: var(--secondaryColor) !important;
+}
 /* end navbar */
 
 section h1 {
@@ -28,6 +32,8 @@ section h1 {
 }
 
 #hero {
+  padding-top: 4rem;
+  margin-top: 50px;
   color: white;
   min-height: 100vh;
 }
@@ -42,6 +48,12 @@ section h1 {
 #hero p {
   font-size: 1.1rem;
   font-weight: 300;
+}
+
+#hero .hero img {
+  width: 75%;
+  border-radius: 50%;
+  border-color: aliceblue;
 }
 
 /* CTA */
@@ -108,4 +120,55 @@ hr {
   padding-bottom: 60px;
 }
 
+#skill .skillicon img {
+  width: 12%;
+  margin: 10px;
+}
+#skill .card {
+  color: black;
+}
+#skill .card img {
+  width: 100%;
+  height: 80%;
+}
+#skill .card:hover {
+  background-color: #d3c60b;
+}
 /* end skil */
+
+/* sertifikat */
+
+#sertifikat {
+  margin-top: -400px;
+  padding-top: 450px;
+  padding-bottom: 50px;
+  background-color: var(--secondaryColor);
+}
+#sertifikat img {
+  margin: 1px;
+  width: 20%;
+}
+
+/* end sertifikat */
+
+/* contact */
+#contact label {
+  color: white !important;
+}
+/* end contact */
+
+/* footer  */
+
+.footer-bg {
+  background-color: #7c7a74cb;
+}
+.text-footer {
+  padding-top: 30px;
+  color: white !important ;
+}
+
+.social-icon-footer {
+  color: white !important;
+  padding-bottom: 30px;
+}
+/* end footer */
