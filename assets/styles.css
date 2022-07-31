@@ -4,6 +4,15 @@
   --acsentColor: #d3c60b;
 }
 
+a {
+  text-decoration: none !important;
+  color: white;
+}
+
+a:hover {
+  color: white !important;
+}
+
 body {
   background-color: var(--mainColor);
   min-height: 90x;
@@ -11,14 +20,17 @@ body {
 }
 
 /* navbar */
+
 .nav-link.active {
   color: var(--acsentColor) !important;
   font-weight: 700;
 }
 
-.navbar {
-  background-color: var(--secondaryColor) !important;
+.nav-dark {
+  background-color: var(--secondaryColor);
+  transition: 0.7s;
 }
+
 /* end navbar */
 
 section h1 {
@@ -32,7 +44,7 @@ section h1 {
 }
 
 #hero {
-  padding-top: 4rem;
+  padding-top: 3rem;
   margin-top: 50px;
   color: white;
   min-height: 100vh;
@@ -51,7 +63,7 @@ section h1 {
 }
 
 #hero .hero img {
-  width: 75%;
+  width: 80%;
   border-radius: 50%;
   border-color: aliceblue;
 }
@@ -61,7 +73,7 @@ section h1 {
 .btn-custom {
   background-color: var(--acsentColor) !important;
   text-align: center;
-  color: white;
+  color: white !important;
   min-width: 150px;
   height: 45px;
   font-weight: 700;
@@ -69,6 +81,7 @@ section h1 {
 }
 
 .btn-custom:hover {
+  color: white;
   box-shadow: 0 0 5px rgb(211, 198, 11, 0.8);
 }
 
@@ -121,7 +134,7 @@ hr {
 }
 
 #skill .skillicon img {
-  width: 12%;
+  width: 15%;
   margin: 10px;
 }
 #skill .card {
@@ -145,8 +158,8 @@ hr {
   background-color: var(--secondaryColor);
 }
 #sertifikat img {
-  margin: 1px;
-  width: 20%;
+  margin: 5px;
+  width: 40%;
 }
 
 /* end sertifikat */
@@ -172,3 +185,15 @@ hr {
   padding-bottom: 30px;
 }
 /* end footer */
+
+/* kontak */
+.btn-kirim {
+  background-color: var(--secondaryColor) !important;
+  color: white;
+}
+
+.btn-kirim:hover {
+  background-color: var(--acsentColor) !important;
+  box-shadow: 0 0 5px rgb(211, 198, 11, 0.8);
+}
+/* end kontak */
