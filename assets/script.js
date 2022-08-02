@@ -1,5 +1,4 @@
 const nav = document.getElementById("nav");
-const active = document.getElementId("nav");
 
 window.addEventListener("scroll", function () {
   scrollposition = window.scrollY;
@@ -11,6 +10,13 @@ window.addEventListener("scroll", function () {
   }
 });
 
-window.addEventListener("active", function () {
-  active.classList.toogle("active");
+navbar = document.querySelector(".navbar").querySelectorAll("a");
+console.log(navbar);
+
+navbar.forEach((element) => {
+  element.addEventListener("click", function () {
+    navbar.forEach((nav) => nav.classList.remove("active"));
+
+    this.classList.add("active");
+  });
 });

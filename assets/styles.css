@@ -164,6 +164,13 @@ hr {
 
 /* end sertifikat */
 
+/* galery */
+#galery {
+  padding-bottom: 100px;
+  background-color: var(--secondaryColor) !important;
+}
+/* end galery */
+
 /* contact */
 #contact label {
   color: white !important;
@@ -187,9 +194,17 @@ hr {
 /* end footer */
 
 /* kontak */
+.my-alert {
+  background-color: #e4dc72;
+}
 .btn-kirim {
   background-color: var(--secondaryColor) !important;
   color: white;
+}
+
+.btn-loading {
+  background-color: #d3c60b !important;
+  color: white !important;
 }
 
 .btn-kirim:hover {
