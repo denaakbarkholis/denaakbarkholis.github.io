@@ -165,9 +165,8 @@ hr {
 /* end sertifikat */
 
 /* galery */
-#galery {
-  padding-bottom: 100px;
-  background-color: var(--secondaryColor) !important;
+.c-width {
+  width: 50% !important;
 }
 /* end galery */
 
